@@ -1,0 +1,160 @@
+/**
+ * This Project is only for Learning purpose.
+ * Created By Mahbub Rashid Tonoy
+ * All Credits Goes To Mahbub Rashid Tonoy
+ * Please Do Not Try To Copy This Without The Permission of The Owner.
+ * To Connect Mahbub Rashid Tonoy, Please Knock Him on Facebook. https://www.facebook.com/ThizIzTonoy
+ */
+
+ body{
+     overflow-x: hidden;
+ }
+.leftside{
+    background-color:#cccccc;
+}
+.eff{
+    color: #555555;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    transition: box-shadow 0.5s;
+}
+.eff:hover{
+    box-shadow: 0px 7px 5px grey;
+}
+.eff a:hover{
+    color: #007bff;
+    font-weight: bold;
+}
+.social-media{
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-top: -15px;
+}
+.social-media a {
+    margin-left: 5px;
+}
+.admin-identity{
+    margin-top: 20px;
+}
+.admin-name{
+    color: #333333;
+}
+.adminimage{
+    border: 2px solid white;
+    border-radius: 75px;
+    transition: height 1s, border-radius 1s, box-shadow 1s;
+}
+.adminimage:hover{
+    height: 200px;
+    width: auto;
+    border-radius: 100px;
+    box-shadow: 0px 15px 10px grey;
+}
+.rightside{
+    border-left: 1px solid rgb(182, 182, 182);
+    
+    background-color:#dddddd;
+    background-image: url("../images/project_background1_opacity_low.png");
+    background-size: cover;
+}
+.intro{
+    text-align: center;
+    margin-top: 170px;
+    text-shadow: 1px 0px #bebebe, 0px 1px #bebebe, -1px 0px #bebebe, 0px -1px #bebebe;
+}
+.rightside a{
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.intro, .order-btns, .learn-btns{
+    transition: padding 2s , font-size 2s, line-height 2s, border-radius 2s ;
+}
+
+.order-btns:hover, .learn-btns:hover{
+    box-shadow: 0px 5px 10px grey;
+}
+.workpannel{
+    border-top: 2px solid rgb(211, 211, 211);
+    position: relative;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    z-index: 2;
+    transition: box-shadow 1s;
+}
+.workpannel:hover{
+    box-shadow: 0px -2px 10px grey;
+}
+.backimage{
+    position: absolute;
+    opacity: 0.5;
+    z-index: -2;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.workpannel-element{
+    text-align: center;
+}
+.web-design , .web-development , .server-mng{
+    margin-top: 150px;
+    display: inline-block;
+    width: 400px;
+    padding: 40px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    transition: box-shadow 1s;
+}
+.web-design:hover , .web-development:hover , .server-mng:hover{
+    box-shadow: 5px 5px 10px grey;
+}
+.design-icon1{
+    color:#8bac66;
+}
+.design-icon2{
+    color: #0068ba;
+}
+.design-icon3{
+    color: #718199;
+}
+.ugap{
+    margin-top: 5px;
+}
+.ugap:hover{
+    box-shadow: 0px 5px 10px grey;
+}
+.custom-footer{
+    height: 60px;
+}
+.bg-img{
+    background-image: url("../images/footer_png_opacity_low.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: box-shadow 0.5s;
+}
+.bg-img:hover{
+    box-shadow: 0px -5px 10px grey;
+}
+.custom-carousel{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 800px;
+    background-color: #dbdbdc;
+    border-top: 1px solid #a3a3a3;
+    padding:5%;
+    transition: box-shadow 1s;
+}
+.custom-carousel:hover {
+    box-shadow: 0px -2px 10px grey;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.55);
+}
+.form-group input{
+    margin-bottom: 10px;
+}
+.login-btn{
+    margin-top: 10px;
+}

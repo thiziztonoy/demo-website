@@ -1,0 +1,131 @@
+/**
+ * This Project is only for Learning purpose.
+ * Created By Mahbub Rashid Tonoy
+ * All Credits Goes To Mahbub Rashid Tonoy
+ * Please Do Not Try To Copy This Without The Permission of The Owner.
+ * To Connect Mahbub Rashid Tonoy, Please Knock Him on Facebook. https://www.facebook.com/ThizIzTonoy
+ */
+.custom-form{
+    margin: 5%;
+}
+.intro-order{
+    text-shadow: 1px 0px #bebebe, 0px 1px #bebebe, -1px 0px #bebebe, 0px -1px #bebebe;
+}
+
+.rightside-slider{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.multiple-upload{
+    color: #009bff;
+}
+.multiple-upload:hover{
+    text-decoration: underline;
+    color: #777777;
+    cursor: pointer;
+}
+.hui{
+    width: 100%;
+    background-color: white;
+    height: 40px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+.hidden-upload{
+    display: none;
+    transition: display 2s;
+}
+.hidden-upload div{
+    margin-top: 15px;
+}
+#description{
+    resize: both;
+}
+.payment-icon{
+    margin: 3px 10px;
+    font-size: 30px;
+}
+.fa-cc-visa {
+    color: #191e6d;
+}
+.fa-cc-mastercard{
+    color:#ef991a;
+}
+.fa-cc-paypal{
+    color: #012f82;
+}
+.fa-cc-amazon-pay{
+    color: #f79400;
+}
+#anim1{
+    animation-duration: 1s;
+    animation-name: commonAnim;
+}
+#anim2{
+    animation-duration: 1s;
+    animation-name: commonAnim;
+    animation-delay: 0.1s;
+}
+#anim3{
+    animation-duration: 1s;
+    animation-name: commonAnim;
+    animation-delay: 0.2s;
+}
+#anim4{
+    animation-duration: 1s;
+    animation-name: commonAnim;
+    animation-delay: 0.3s;
+}
+#anim5{
+    animation-duration: 1s;
+    animation-name: commonAnim;
+    animation-delay: 0.4s;
+}
+#anim6{
+    animation-duration: 1s;
+    animation-name: commonAnim;
+    animation-delay: 0.5s;
+}
+#anim7{
+    animation-duration: 1s;
+    animation-name: commonAnim;
+    animation-delay: 0.6s;
+}
+
+@keyframes commonAnim{
+    0%{
+        width:100%;
+    }
+    50%{
+        width: 20%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+.about-custom{
+    margin: 2%;
+}
+.about-custom h3{
+    text-shadow: 1px 0px #bebebe, 0px 1px #bebebe, -1px 0px #bebebe, 0px -1px #bebebe;
+}
+.lineAnimation{
+    width: 100%;
+    animation-name: line;
+    animation-duration: 1.5s;
+}
+@keyframes line{
+    0%{
+        width: 30%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+.lineAnimation h1{
+    display: inline-block;
+}
+.lineAnimation hr{
+    height: 2px;
+    background-color: grey;
+}
